@@ -1,0 +1,12 @@
+.todos-layout{
+    font-family: 'Pathway Extreme', sans-serif;
+    background-color: #C7EAFF;
+    height: calc(100vh - 230px);
+    border-radius: 1rem;
+    padding: 1.5rem 1rem;
+    overflow: scroll;
+}
+
+.Edit-options{
+    z-index: 9;
+}

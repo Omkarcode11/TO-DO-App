@@ -1,0 +1,58 @@
+.setting-layout{
+    width: calc(100vw - 5rem);
+    position: fixed;
+    bottom: 1rem;
+    padding: 1rem;
+    font-family: 'Pathway Extreme', sans-serif;
+    background-color: whitesmoke;
+    z-index: 10;
+}
+.settingHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+
+.selectTheme{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.logout{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: whitesmoke;
+    justify-content: center;
+    color: red;
+    border: none;
+}
+
+.colors{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.redCircle {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+.blueCircle {
+    width: 30px;
+    height: 30px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+.yellowCircle {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+}

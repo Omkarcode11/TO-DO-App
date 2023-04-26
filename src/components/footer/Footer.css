@@ -1,0 +1,62 @@
+.footer-layout {
+  position: fixed;
+  bottom: 1rem;
+  left:calc(100vw / 2 - 160px);
+  background-color: #F5F5F5;
+}
+.addTodo>button{
+    font-size: 1.5rem;
+    background-color: #008BD9;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0.5rem 3rem;
+    color: white;
+}
+
+.subButton{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+}
+.subButton > button {
+    font-size: 1rem;
+    padding: 0.2rem 1rem;
+    border-radius: 4px;
+    background-color: white;
+    border:solid 1px black;
+}
+
+.subButton > button:hover{
+    color:#008BD9 ;
+    border: 1px solid #008BD9;
+}
+
+
+.addNewTodoHeading{
+    font-size: 2rem;
+    font-family: 'Pathway Extreme', sans-serif;
+}
+
+.addNewTodoInput{
+    outline: none;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+
+
+.addCanButton{
+    display: flex;
+    gap: 0.5rem;
+}
+.addCanButton>button{
+    font-size: 1.5rem;
+    padding: 0.5rem 2.5rem;
+    background-color: #008BD9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+

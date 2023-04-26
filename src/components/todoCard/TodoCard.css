@@ -1,0 +1,18 @@
+.todoCard-Layout{
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 0.5rem 1rem;
+    margin: 0.9rem 0rem;
+}
+
+.titleTodo{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-size: 1.5rem;
+}
+
+.taskTitle{
+    font-family: 'Pathway Extreme', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    
+}
